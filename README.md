@@ -39,8 +39,6 @@ This repository contains the code corresponding to an in-depth **GSAP Course** a
 
 Recreate the viral GTA VI website with React, Tailwind CSS, and GSAP. Build and deploy a scroll-driven experience packed with cinematic animations using GSAP’s ScrollTrigger. Pin sections in place, sync video playback with scroll, and add smooth parallax and image masking effects. A modern, responsive site that brings high-impact motion design to life on the web.
 
-
-
 If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
 
 <a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
@@ -119,7 +117,7 @@ Assets and snippets used in the project can be found in the **[video kit](https:
 
 ## <a name="more">🚀 More</a>
 
-**Advance your skills with our GSAP Pro Course**
+**Advance your skills with our GSAP Pro Course!**
 
 Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
 detailed explanations, cool features, and exercises to boost your skills. Give it a go!
