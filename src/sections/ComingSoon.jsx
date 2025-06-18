@@ -1,3 +1,4 @@
+
 const ComingSoon = () => {
   return (
     <section className="entrance-message">
