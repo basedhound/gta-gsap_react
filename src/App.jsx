@@ -1,13 +1,12 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
+import NavBar from "./components/NavBar";
 
 gsap.registerPlugin(ScrollTrigger);
 function App() {
   return (
     <main>
-      <div>
-        <h1 className="text-3xl text-indigo-300">Hello React!</h1>
-      </div>
+      <NavBar />
     </main>
   );
 }
