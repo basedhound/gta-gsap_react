@@ -75,10 +75,15 @@ const Hero = () => {
         opacity: 0,
       })
       // Underneath that, we fade in the large overlay logo
-      .to(
+.to(
         ".overlay-logo",
         {
           opacity: 1,
+          onComplete: () => {
+            gsap.to(".overlay-logo", {
+              opacity: 0,
+            });
+          },
         },
         "<"
       )
