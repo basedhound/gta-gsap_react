@@ -87,8 +87,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/adrianhajdin/jsm_gta_vi_landing.git
+cd jsm_gta_vi_landing
 ```
 
 **Installation**
