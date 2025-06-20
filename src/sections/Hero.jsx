@@ -5,7 +5,6 @@ import ComingSoon from "./ComingSoon";
 import { useMaskSettings } from "../constants";
 
 const Hero = () => {
-
   // We’re importing dynamic mask values depending on device size (mobile/tablet/desktop)
   // These values come from our custom hook: useMaskSettings()
   const { initialMaskPos, initialMaskSize, maskPos, maskSize } =
@@ -39,14 +38,11 @@ const Hero = () => {
     // Define the animation flow
 
     // Fade out initial text and buttons (logo, trailer, play)
-    // To select our targets, let's give .fade-out to the images that we want to animate 
-    tl.to(
-      ".fade-out",
-      {
-        opacity: 0,
-        ease: "power1.inOut",
-      }
-    )
+    // To select our targets, let's give .fade-out to the images that we want to animate
+    tl.to(".fade-out", {
+      opacity: 0,
+      ease: "power1.inOut",
+    })
       // Scale the background image smoothly
       .to(".scale-out", {
         scale: 1,
@@ -75,7 +71,7 @@ const Hero = () => {
         opacity: 0,
       })
       // Underneath that, we fade in the large overlay logo
-.to(
+      .to(
         ".overlay-logo",
         {
           opacity: 1,
